@@ -13,6 +13,7 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -248,11 +249,17 @@ h2 {
 
 
 @media(max-width:990px) {
+
+
+    .navbar{
+        height: 45px;
+    }
+    
     .hamburger {
         display: block;
         z-index: 10;
-        position: absolute;
-        right: 21px;
+        /* position: absolute;
+        right: 21px; */
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -277,11 +284,12 @@ h2 {
         width: 60%;
         transition: 0.3s;
         display: flex;
-        height: 139vh;
+        /* height: 139vh; */
         font-size: 22px;
         gap: 16px;
         /* border-radius: 18px; */
         left: 0;
+
 
 
     }

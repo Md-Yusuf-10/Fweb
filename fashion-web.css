@@ -141,7 +141,7 @@ h2 {
 
 .window-scroll {
     position: fixed;
-    width: 100vw;
+    width: 10vw;
     z-index: 10;
 }
 

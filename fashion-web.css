@@ -141,7 +141,7 @@ h2 {
 
 .window-scroll {
     position: fixed;
-    width: 15%;
+    width: 100%;
     z-index: 10;
 }
 
@@ -286,16 +286,12 @@ h2 {
         /* border-radius: 18px; */
         left: 0;
 
-
-
     }
-
 
     .nav-item {
         margin: 16px 0;
 
     }
-
     .nav-menu.active {
         top: 70px;
         padding: 25px;
@@ -303,17 +299,17 @@ h2 {
         height: 40vh;
         width: 70%;
     }
-
-
-
-
+    
     .navbar ul li ul {
 
         position: inherit;
-
-
-
     }
+
+    .window-scroll {
+    position: fixed;
+    width: 15%;
+    z-index: 10;
+}
 }
 
 

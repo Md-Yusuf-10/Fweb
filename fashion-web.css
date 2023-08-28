@@ -17,6 +17,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -296,7 +297,6 @@ h2 {
         top: 70px;
         padding: 25px;
         z-index: 10;
-        height: 40vh;
         width: 70%;
     }
     
